@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CreamKart - main.html</title>
+    <title>CreamKart</title>
     <link rel="stylesheet" href="../css/css.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
@@ -12,11 +12,9 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
 </head>
 
-<body>
+<body class="m-0">
     <div class="container mx-auto">
         <!-- Menu Section -->
         <div class="m-8">
@@ -35,24 +33,25 @@
                 <!-- row - 1  -->
                 <button class="menu-button mb-2 h-10 w-full sm:mb-0 sm:w-1/4 lg:w-30">Cakes</button>
                 <button class="menu-button mb-2 h-10 w-full sm:mb-0 sm:w-1/4 lg:w-30">Premium cakes</button>
-                 <!-- row - 2  -->
-                <button class="menu-button mb-2 h-10 w-full sm:mb-0 sm:w-1/4 lg:w-30">Pastries</button>
-                <button class="menu-button mb-2 h-10 w-full sm:mb-0 sm:w-1/4 lg:w-30">Ice Cream</button>
-            </div>
-            
-            <div class=" flex-col sm:flex-row sm:space-x-4 lg:space-x-10 pt-4 items-center justify-center sm:items-center sm:justify-center lg:pl-0 border-red-600 lg:hidden sm:hidden">
-                <!-- row - 1  -->
-                <div class="flex flex-row space-x-2">
-                <button class="menu-button mb-2 h-10 w-full sm:mb-0 sm:w-1/4 lg:w-30">Cakes</button>
-                <button class="menu-button mb-2 h-10 w-full sm:mb-0 sm:w-1/4 lg:w-30">Premium cakes</button>
-            </div>
-            <div class="flex flex-row space-x-2">
                 <!-- row - 2  -->
                 <button class="menu-button mb-2 h-10 w-full sm:mb-0 sm:w-1/4 lg:w-30">Pastries</button>
                 <button class="menu-button mb-2 h-10 w-full sm:mb-0 sm:w-1/4 lg:w-30">Ice Cream</button>
             </div>
+
+            <div
+                class=" flex-col sm:flex-row sm:space-x-4 lg:space-x-10 pt-4 items-center justify-center sm:items-center sm:justify-center lg:pl-0 border-red-600 lg:hidden sm:hidden">
+                <!-- row - 1  -->
+                <div class="flex flex-row space-x-2">
+                    <button class="menu-button mb-2 h-10 w-full sm:mb-0 sm:w-1/4 lg:w-30">Cakes</button>
+                    <button class="menu-button mb-2 h-10 w-full sm:mb-0 sm:w-1/4 lg:w-30">Premium cakes</button>
+                </div>
+                <div class="flex flex-row space-x-2">
+                    <!-- row - 2  -->
+                    <button class="menu-button mb-2 h-10 w-full sm:mb-0 sm:w-1/4 lg:w-30">Pastries</button>
+                    <button class="menu-button mb-2 h-10 w-full sm:mb-0 sm:w-1/4 lg:w-30">Ice Cream</button>
+                </div>
             </div>
-            
+
         </div>
 
         <!-- Image Section -->
@@ -108,58 +107,6 @@
                 </div>
             </div>
 
-
-           
-            <!-- <div class="lg:hidden">
-              
-                <div class="sm:flex flex-col space-y-6 sm:space-y-0 sm:flex-row sm:space-x-10 justify-center">
-                 
-                    <div class="flex-1">
-                        <img src="../images/menu/Chocolate_Symphony.png" alt=""
-                            class="rounded-xl w-96 h-48 object-center object-cover">
-                        <h6 class="pt-1 text-center font-medium">Chocolate Symphony</h6>
-                    </div>
-                    <div class="flex-1">
-                        <img src="../images/menu/Citrus_Burst_Delight.png" alt=""
-                            class="rounded-xl w-96 h-48 object-center object-cover">
-                        <h6 class="pt-1 text-center font-medium">Citrus Burst Delight</h6>
-                    </div>
-                </div>
-
-               
-                <div class="sm:flex flex-col space-y-6 sm:space-y-0 sm:flex-row sm:space-x-10">
-                  
-                    <div class="flex-1">
-                        <img src="../images/menu/Divine_Delights.png" alt=""
-                            class="rounded-xl w-96 h-48 object-center object-cover">
-                        <h6 class="pt-1 text-center font-medium">Divine Delights</h6>
-                    </div>
-                    <div class="flex-1">
-                        <img src="../images/menu/Berry_Bliss_Bonanza.png" alt=""
-                            class="rounded-xl w-96 h-48 object-center object-cover">
-                        <h6 class="pt-1 text-center font-medium">Berry Bliss Bonanza</h6>
-                    </div>
-                </div>
-            </div> -->
-
-            <!-- For mobile (1 image in a row) -->
-            <!-- <div class="lg:hidden sm:hidden">
-
-                <div class="flex flex-col items-center">
-                    <div class="w-screen">
-                        <img src="../images/menu/Chocolate_Symphony.png" alt=""
-                            class="rounded-xl w-full h-48 object-center object-cover px-2">
-                        <h6 class="pt-1 text-center font-medium">Chocolate Symphony</h6>
-                    </div>
-                </div>
-                <div class="flex flex-col items-center space-y-6">
-                    <div class="w-96">
-                        <img src="../images/menu/Divine_Delights.png" alt=""
-                            class="rounded-xl w-full h-48 object-center object-cover px-2">
-                        <h6 class="pt-1 text-center font-medium">Divine Delights</h6>
-                    </div>
-                </div>
-            </div> -->
 
             <!-- For mobile (1 image in a row) -->
             <div class="md:hidden">
@@ -448,71 +395,72 @@
                 <div class="swiper-pagination"></div>
             </div>
         </div>
+
     </div>
-    </body>
-    
-        <footer class="bg-pink-100 lg:m-0">
-            <div class="pt-4">
-                <div class="text-center">
-                    <h1 class="text-black font-bold text-2xl sm:text-4xl border-b-2 border-pink-600 pb-2 inline-block">
-                        Contact Us</h1>
+</body>
+
+<footer class="bg-pink-100 lg:m-0">
+    <div class="pt-4">
+        <div class="text-center">
+            <h1 class="text-black font-bold text-2xl sm:text-4xl border-b-2 border-pink-600 pb-2 inline-block">
+                Contact Us</h1>
+        </div>
+        <div class="flex flex-col sm:flex-row">
+            <div class="w-full sm:w-2/3 p-4 sm:pt-8 pb-4">
+                <div>
+                    <h2 class="creamy text-lg sm:text-3xl font-semibold ml-3 text-center mb-4">Sweet Connections
+                        Await:
+                        <span class="text-pink-600">Reach out</span> to Cream Kart and Let Your Cake Dreams Come
+                        True!
+                    </h2>
                 </div>
-                <div class="flex flex-col sm:flex-row">
-                    <div class="w-full sm:w-2/3 p-4 sm:pt-8 pb-4">
+                <div class="flex items-center space-x-3">
+                    <input type="email" placeholder="Enter your email"
+                        class="py-2 px-4 text-gray-500 focus:outline-none border border-gray-300 rounded-md w-full sm:w-auto mb-2 sm:mb-0">
+                    <button class="menu-button text-sm px-4 py-2">Email</button>
+                </div>
+            </div>
+            <div class="hidden sm:block w-full sm:w-auto sm:ml-4">
+                <!-- Hide on small screens and show on larger screens -->
+                <img src="../images/menu/footer.png" alt="" class="w-full h-auto">
+            </div>
+        </div>
+
+        <div class="border-b-2 border-pink-300 mx-4 sm:mx-10 mt-4 sm:mt-8"></div>
+
+        <div class="flex flex-col sm:flex-row py-4">
+            <div class="flex items-center w-full sm:w-2/3">
+                <div class="rounded-full overflow-hidden bg-pink-400 w-10 h-10 m-2 sm:w-14 sm:h-14">
+                    <img src="../images/logo.png" alt="" class="w-full h-full object-cover">
+                </div>
+                <div class="m-3 mx-auto max-w-md">
+                    <div class="flex flex-col sm:flex-row items-center space-x-2 sm:space-x-4">
                         <div>
-                            <h2 class="creamy text-lg sm:text-3xl font-semibold ml-3 text-center mb-4">Sweet Connections
-                                Await:
-                                <span class="text-pink-600">Reach out</span> to Cream Kart and Let Your Cake Dreams Come
-                                True!
-                            </h2>
+                            <h5>&commat; 2023 Cream Kart</h5>
                         </div>
-                        <div class="flex items-center space-x-3">
-                            <input type="email" placeholder="Enter your email"
-                                class="py-2 px-4 text-gray-500 focus:outline-none border border-gray-300 rounded-md w-full sm:w-auto mb-2 sm:mb-0">
-                            <button class="menu-button text-sm px-4 py-2">Email</button>
+                        <div>
+                            <h5>Designed by Nicozn Technologies</h5>
                         </div>
                     </div>
-                    <div class="hidden sm:block w-full sm:w-auto sm:ml-4">
-                        <!-- Hide on small screens and show on larger screens -->
-                        <img src="../images/menu/footer.png" alt="" class="w-full h-auto">
-                    </div>
-                </div>
-
-                <div class="border-b-2 border-pink-300 mx-4 sm:mx-10 mt-4 sm:mt-8"></div>
-
-                <div class="flex flex-col sm:flex-row py-4">
-                    <div class="flex items-center w-full sm:w-2/3">
-                        <div class="rounded-full overflow-hidden bg-pink-400 w-10 h-10 m-2 sm:w-14 sm:h-14">
-                            <img src="../images/logo.png" alt="" class="w-full h-full object-cover">
-                        </div>
-                        <div class="m-3 mx-auto max-w-md">
-                            <div class="flex flex-col sm:flex-row items-center space-x-2 sm:space-x-4">
-                                <div>
-                                    <h5>&commat; 2023 Cream Kart</h5>
-                                </div>
-                                <div>
-                                    <h5>Designed by Nicozn Technologies</h5>
-                                </div>
-                            </div>
-                            <div class="flex justify-center space-x-4 mt-2">
-                                <a href="#" class="fa fa-facebook"></a>
-                                <a href="#" class="fa fa-twitter"></a>
-                                <a href="#" class="fa fa-instagram"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="w-full sm:w-auto mt-4 sm:mt-0">
-                        <h2 class="creamy text-lg sm:text-xl font-semibold ml-3 text-center">Indulge in Sweet Moments,
-                            One Slice at a Time</h2>
-                        <h2 class="creamy text-lg sm:text-xl font-semibold ml-3 text-center">Cream Kart, where <span
-                                class="text-pink-600">Every Bite</span> is a Celebration</h2>
+                    <div class="flex justify-center space-x-4 mt-2">
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-instagram"></a>
                     </div>
                 </div>
             </div>
-        </footer>
+            <div class="w-full sm:w-auto mt-4 sm:mt-0">
+                <h2 class="creamy text-lg sm:text-xl font-semibold ml-3 text-center">Indulge in Sweet Moments,
+                    One Slice at a Time</h2>
+                <h2 class="creamy text-lg sm:text-xl font-semibold ml-3 text-center">Cream Kart, where <span
+                        class="text-pink-600">Every Bite</span> is a Celebration</h2>
+            </div>
+        </div>
+    </div>
+</footer>
 
 
-   
+
 
 <script src="swiper-bundle.min.js"></script>
 <script src="script.js"></script>
